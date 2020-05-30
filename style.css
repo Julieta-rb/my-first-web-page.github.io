@@ -1,24 +1,87 @@
-body{
-	font-family:arial;
+body {
+	font-family: arial;
 	text-align: center;
-	background:blue;
+	background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
 }
-
-
-
 
 h1 {
-	color :yellow;
-	font-size : 14px;
+	color: #D3CCE3;
+	font-size: 40px;
 }
 
-h2,h3,h4 {
-	color;grid-template-columns: 
-	font-size : 34px;
+h2, h3, h4 {
+	color: #D3CCE3;
+	font-size: 34px;
 }
 
-
-
-div {
- background: pink;
+.img1{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
 }
+
+div{
+background: white;
+}
+
+img{
+width: 300px;
+	height: 200px;
+	object-fit: cover;	
+}
+	
+.cadre {
+background: white;
+border: 5px solid #D3CCE3;
+margin: 100px;
+padding: 30px;
+border-radius: 30px;
+box-shadow: 5px 5 px 10px grey;
+}
+
+.btn-pink {
+	display: inline-block;
+	background: #C49DAE;
+	padding: 15px
+	margin: 15px;
+	border: 2px solid pink;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.btn-pink:hover {
+	opacity: 0.8;
+}
+
+.line-transparent{
+	background: white;
+	color: #D3CCE3;
+	display: flex; /*Permet de mettre les enfants les uns à côté des autres*/
+	justify-content: space-around;
+	align-items: center;
+	/*height: 600px;*/
+}
+
+.line-dark{
+	background: #AA6081;
+	width: 50px;
+	height: 5px;
+}
+
+.line-medium{
+	background: #C49DAE;
+	width: 30px;
+	height: 5px;
+}
+
+.line-light{
+	background: #90305A;
+	width: 20px;
+	height: 5px;
+}
+
