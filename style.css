@@ -50,19 +50,21 @@ border-radius: 30px;
 box-shadow: 5px 5 px 10px grey;
 }
 
-.my-btn-pink {
+.my-btn {
+	font-family: 'Roboto Mono' ;
 	display: inline-block;
 	background: #C49DAE;
 	padding: 15px
 	margin: 15px;
 	border: 2px solid pink;
 	border-radius: 3px;
-	color: white;
+	color: pink;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.my-btn-pink:hover {
+.my-btn:hover {
+	color: pink;
 	opacity: 0.8;
 }
 
