@@ -17,6 +17,10 @@ h2, h3, h4 {
 	font-size: 34px;
 }
 
+ol,ul, h4{
+	text-align: left;
+}
+
 
 div{
 background: white;
@@ -27,6 +31,7 @@ width: 300px;
 	height: 200px;
 	object-fit: cover;	
 }
+
 	
 .cadre {
 background: white;
