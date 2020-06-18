@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto Mono', monospace;;
+	font-family: 'Roboto Mono', monospace;
 	text-align: center;
 	background: #D3CCE3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2, h3, h4 {
-	font-family:'Roboto Mono', monospace;;
+	font-family:'Roboto Mono', monospace;
 	color: #D3CCE3;
 	font-size: 34px;
 }
