@@ -1,10 +1,14 @@
 body {
-	font-family: arial;
+	font-family: 'Roboto Mono', monospace;;
 	text-align: center;
 	background: #D3CCE3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 ;
+}
+
+.text-center{
+	text-align: center;
 }
 
 h1 {
@@ -13,6 +17,7 @@ h1 {
 }
 
 h2, h3, h4 {
+	font-family:'Roboto Mono', monospace;;
 	color: #D3CCE3;
 	font-size: 34px;
 }
@@ -32,6 +37,9 @@ width: 300px;
 	object-fit: cover;	
 }
 
+.text-left{
+	text-align: left;
+}
 	
 .cadre {
 background: white;
